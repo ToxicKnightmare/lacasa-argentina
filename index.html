@@ -3,48 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            margin: 0px;
-            padding:0px;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        }
-        .video-container {
-            position: relative;
-            height: 48vw;
-            overflow: hidden;
-        }
-        .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .logo-overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 80px;
-        }
-        .logo-overlay a {
-            color: #FFF;
-            text-decoration: none;
-        }
-    </style>
+    <title>La Casa Argentina - Alamos Sonora Mexico</title>
+    <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body>
     <div class="video-container">
         <video autoplay="" loop="" muted="">
             <source src="assets/VID-20240417-WA0042.mp4" type="video/mp4">
         </video>
-
-        <div class="logo-overlay">
-            <a href="menu" target="_self">La Casa Argentina</a>
+        <div class="videoBy"><span>Video cortesía de: Omar Harb</span></div>
+    </div>
+    <div id="main">
+        <div id="header">
+            <div class="header-info">
+                <ul class="info-deatils">
+                    <li class="info language"><a href="">ES</a></li>
+                    <li class="info phone"><a href="tel:6471026054">(647) 102 6054</a></li>
+                    <li class="info email"><a href="mailto:info@lacasa-agentina.com">info@lacasa-argetina.com</a></li>
+                </ul>
+            </div>
+            <div class="header-nav">
+                <div class="header-nav-logo">
+                    La Casa Argentina
+                </div>
+                <div class="header-nav-links">
+                    <ul class="nav-links">
+                        <li class="nav-link"><a href="#menu">Menú</a></li>
+                        <li class="nav-link"><a href="#aboutus">Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+    <div id="menu">
+        <div class="menu-container">
+            <div class="menu-title">Menú</div>
+            <div class="menu-divider">&nbsp;</div>
+            <div class="menu-categories-items">
+                <div class="menu-category">
+                    <div class="menu-subTitle">Carne</div>
+                    <div class="menu-subDivider">&nbsp;</div>
+                    <ul class="menu-item">
+                        <li class="item">Fondue Bourguignon</li>
+                        <li class="item">Porterhouse (800g)</li>
+                        <li class="item">Costilla Pampa (Tomahawk) (700g)</li>
+                        <li class="item">Bife Gaucho (T-bone) (600g)</li>
+                        <li class="item">Bife de Chorizo (Rib-eye) (420g y 200g)</li>
+                        <li class="item">Parrillada (2 personas)</li>
+                        <li class="item">Costillitas BBQ</li>
+                        <li class="item">Chorizo (1 kg)</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-subTitle">Aves</div>
+                    <div class="menu-subDivider">&nbsp;</div>
+                    <ul class="menu-item">
+                        <li class="item">Pechuga de Pollo Porteña (Plancha)</li>
+                        <li class="item">Pechuga de Pollo Iguazú (Rellena)</li>
+                        <li class="item">Milanesa de Pollo de la Abuela</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-subTitle">Pescado</div>
+                    <div class="menu-subDivider">&nbsp;</div>
+                    <ul class="menu-item">
+                        <li class="item">Filete Bariloche (Salmon)</li>
+                        <li class="item">Filete Patagonia (Atún)</li>
+                        <li class="item">Al Mojo de Ajo</li>
+                        <li class="item">A la Veracruzana</li>
+                        <li class="item">Empanizado</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-subTitle">Espeialidades de la Casa</div>
+                    <div class="menu-subDivider">&nbsp;</div>
+                    <ul class="menu-item">
+                        <li class="item">Camarones Al Coco</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-subTitle">Camarones</div>
+                    <div class="menu-subDivider">&nbsp;</div>
+                    <ul class="menu-item">
+                        <li class="item">Al Mojo de Ajo</li>
+                        <li class="item">A la Veracruzana</li>
+                        <li class="item">Empanizado</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-subTitle">Ensaladas</div>
+                    <div class="menu-subDivider">&nbsp;</div>
+                    <ul class="menu-item">
+                        <li class="item">Ensalada Cesar</li>
+                        <li class="item">De La Casa</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-subTitle">Pizzas y Empanadas</div>
+                    <div class="menu-subDivider">&nbsp;</div>
+                    <ul class="menu-item">
+                        <li class="item">Pizza Familiar</li>
+                        <li class="item">Pizza Mediana</li>
+                        <li class="item">Empanadas</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-subTitle">De Italia</div>
+                    <div class="menu-subDivider">&nbsp;</div>
+                    <ul class="menu-item">
+                        <li class="item">Lasagna</li>
+                        <li class="item">Pollo Alfredo</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div id="aboutus">
+        <div class="aboutus-container">
+            <div class="aboutus-title">Nosotros</div>
+        </div>
+        
+    </div>
+    <div id="footer"></div>
 </body>
 </html>
